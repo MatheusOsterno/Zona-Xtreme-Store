@@ -1,16 +1,22 @@
 <template>
-  <hello-world />
+  <v-app :style="{ background: $vuetify.theme.themes.dark.background}">
+    <SideBar />
+    <v-container fluid >
+
+    </v-container>
+  </v-app>
 </template>
 
 <script>
   import HelloWorld from '../components/HelloWorld'
+  import SideBar from '../components/SideBar.vue'
 
   export default {
     name: 'Home',
 
     components: {
-      HelloWorld,
-    },
+    SideBar
+},
   }
 </script>
 
