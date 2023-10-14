@@ -17,7 +17,6 @@ Cronograma:
 - (X) Criar funçoes de remorção de itens
 - (X) Responsividade
 
-
 # zona-xtreme-store
 
 ## Project setup
